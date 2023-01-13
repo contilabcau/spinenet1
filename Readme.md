@@ -1,8 +1,8 @@
-##### LICENSE 링크는 다음과 같다.
+## LICENSE 링크는 다음과 같다.
 * [LICENSE](https://github.com/contilabcau/spinenet1/blob/main/LICENSE)
 
 
-##### 여기서 부터는 * [yan-roo/SpineNet-Pytorch](https://github.com/yan-roo/SpineNet-Pytorch) 사이트에서 나와있는 모델 정보이다.
+## 여기서 부터는 * [yan-roo/SpineNet-Pytorch](https://github.com/yan-roo/SpineNet-Pytorch) 사이트에서 나와있는 모델 정보이다.
 
 # SpineNet-Pytorch
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/spinenet-learning-scale-permuted-backbone-for/object-detection-on-coco)](https://paperswithcode.com/sota/object-detection-on-coco?p=spinenet-learning-scale-permuted-backbone-for)<br>
