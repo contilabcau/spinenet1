@@ -1,9 +1,9 @@
 ## ● Mask R-CNN (SpineNet)
-## - 기존의 CNN 구조를 활용한 객체 탐지는 이미지의 특성(feature)을 추출하는 과정을 거치게 되어, 하위 레이어들은 낮은 공간적 차원을 가지게 되므로, 탐지에 중요한 영향을 미치는 특징점이 누락되는 문제가 발생할 수 있음
-## - SpineNet은 스케일 순열(Scale Permutations)과 Cross-scale Connection을 학습하여, 모델의 레이어가 깊어져도 중간과정의 Feature Map의 해상도는 가변적이며, 서로 다른 사이즈의 Feature map이 연결될 수 있게 하였음
+### - 기존의 CNN 구조를 활용한 객체 탐지는 이미지의 특성(feature)을 추출하는 과정을 거치게 되어, 하위 레이어들은 낮은 공간적 차원을 가지게 되므로, 탐지에 중요한 영향을 미치는 특징점이 누락되는 문제가 발생할 수 있음
+### - SpineNet은 스케일 순열(Scale Permutations)과 Cross-scale Connection을 학습하여, 모델의 레이어가 깊어져도 중간과정의 Feature Map의 해상도는 가변적이며, 서로 다른 사이즈의 Feature map이 연결될 수 있게 하였음
 ![그림1](https://user-images.githubusercontent.com/121658912/212218375-6a34d3fd-73f9-4e12-a7cd-35ed98a155f1.png)
 ### reference : SpineNet: Learning Scale-Permuted Backbone for Recognition and Localization, 2020
-## - 2 Stage 기반으로 COCO 데이터셋으로 학습 및 평가한 결과, 기존 인공지능 모델 대비 유의미한 높은 AP를 기록하였으며, 현재 Paperswithcode의 Instance Segmentation 부문에서 16위에 위치하고 있음
+### - 2 Stage 기반으로 COCO 데이터셋으로 학습 및 평가한 결과, 기존 인공지능 모델 대비 유의미한 높은 AP를 기록하였으며, 현재 Paperswithcode의 Instance Segmentation 부문에서 16위에 위치하고 있음
 ![그림2](https://user-images.githubusercontent.com/121658912/212218384-9ace074d-886d-43b1-9eea-d37621a5b5ad.png)
 
 ## 모델 LICENSE 링크는 다음과 같다.
