@@ -7,6 +7,7 @@
 [SpineNet](https://arxiv.org/abs/1912.05027) is a scale-permuted backbone for object detection, proposed by Google Brain in CVPR 2020. This project is a kind of implementation of SpineNet using mmdetection.
 
 It is highly based on the
+* [yan-roo/SpineNet-Pytorch](https://github.com/yan-roo/SpineNet-Pytorch)
 * [lucifer443/SpineNet-Pytorch](https://github.com/lucifer443/SpineNet-Pytorch)
 * The paper [SpineNet: Learning Scale-Permuted Backbone for Recognition and Localization](https://arxiv.org/abs/1912.05027)
 * [Official TensorFlow Implementation](https://github.com/tensorflow/tpu/tree/master/models/official/detection)
