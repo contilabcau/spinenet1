@@ -1,4 +1,4 @@
-## LICENSE 링크는 다음과 같다.
+## 모델 LICENSE 링크는 다음과 같다.
 * [LICENSE](https://github.com/contilabcau/spinenet1/blob/main/LICENSE)
 
 
