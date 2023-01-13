@@ -12,27 +12,11 @@ It is highly based on the
 * [Official TensorFlow Implementation](https://github.com/tensorflow/tpu/tree/master/models/official/detection)
 
 ## Models
-### COCO Object Detection Baselines
-#### RetinaNet (Trained from scratch)
-| Backbone     | Resolution  |box AP| Params | FLOPs   |box AP <br> (paper)| Params <br> (paper) | FLOPs <br> (paper) | Download |
-| ------------ | ----------  | ---- | ------ | ------- | ----------------- | ------------------- | ------------------ | -------- |
-| [SpineNet-49S](configs/spinenet/spinenet_49S_B_8gpu.py) |   640x640   | 39.2 | 11.15M | 30.04B  |       39.9       |         12.0M       |        33.8B       | [model](https://drive.google.com/file/d/1400i71u_3rF1K_S-czeL5uUQaNE2gaod/view?usp=sharing) |
-| [SpineNet-49](configs/spinenet/spinenet_49_B_8gpu_640.py)  |   640x640   | 42.1 | 28.31M | 83.7B   |       42.8       |         28.5M       |        85.4B       | [model](https://drive.google.com/file/d/1W_HsHmjDcIIXp9E9DyfzeyJFcvUQVkX8/view?usp=sharing) |
-| [SpineNet-49](configs/spinenet/spinenet_49_B_8gpu_896.py)  |   896x896   | 44.9 | 28.31M | 164.05B |       45.3       |         28.5M       |        167.4B      | [model](https://drive.google.com/file/d/1PM-raZgwOc3Itd_AO9CA-TkNJgaF0Jv_/view?usp=sharing) |
-| [SpineNet-96](configs/spinenet/spinenet_96_B_8gpu.py)  |  1024x1024  | 46.9   | 42.74M | 261.35B |       47.1       |         43.0M       |        265.4B      | [model](https://drive.google.com/file/d/18PiuIA2gWJoHIzRXBEwTIcsjxVHcfMrj/view?usp=sharing)|
-| [SpineNet-143](configs/spinenet/spinenet_143_B_8gpu.py) |  1280x1280  | 49.2  | 66.73M | 518.32B |       48.1       |         66.9M       |        524.4B      | [model](https://drive.google.com/file/d/1-Ff0x2Mjd9F5kHfi0hEd66QoIsSRqC_u/view?usp=sharing)|
-| SpineNet-190 |  1280x1280  | ——   | 163.17M| 1870.89B|       52.1 (C)   |         163.6M      |        1885B       | _Training_|
-
 ### Instance Segmentation Baselines
 #### Mask R-CNN (Trained from scratch)
 | Backbone     | Resolution  |box AP|mask AP| Params | FLOPs   |box mAP <br> (paper)|mask mAP <br> (paper)| Params <br> (paper) | FLOPs <br> (paper) | Download |
 | ------------ | ----------  | ---- | ----- | ------ | ------- | ------------------ | ------------------- | ------------------- | ------------------ | -------- |
 | [SpineNet-49S](configs/spinenet/mask_rcnn_spinenet_49S_B_8gpu_640.py)|   640x640   | 39.7 | 34.9 | 13.92M | 63.77B   | 39.3 | 34.8 | 13.9M | 60.2B  | [model](https://drive.google.com/file/d/1WEa7y8kFXPoCtDEeNpTzJrKpVlMbjiGG/view?usp=sharing) |
-| [SpineNet-49](configs/spinenet/mask_rcnn_spinenet_49_B_8gpu_640.py)  |   640x640   | 43.3 | 37.8 | 40.69M | 231.17B  | 42.9 | 38.1 | 40.8M | 216.1B | [model](https://drive.google.com/file/d/1EvbZslpP9e1ge_YQWrqnxDqMYmRujjIL/view?usp=sharing) |
-| [SpineNet-96](configs/spinenet/mask_rcnn_spinenet_96_B_8gpu_1024.py) |   1024x1024 | 47.0 | 41.2 | 55.12M | 330.72B  | 47.2 | 41.5 | 55.2M | 315.0B | [model](https://drive.google.com/file/d/1gPkT_fz7Zgo-a0IxipcUp76CsqQwD1LV/view?usp=sharing) |
-| [SpineNet-143](configs/spinenet/mask_rcnn_spinenet_143_B_8gpu_1280.py)  |   1280x1280 | 48.3 | 41.3 | 79.11M | 515.58B  | 48.8 | 42.7 | 79.2M | 498.8B | [model](https://drive.google.com/file/d/1Q3TMVWtDFPoLpzhymIKxxfSrz0QDwgad/view?usp=sharing) |
-
-**Note**: The parameters and FLOPs are a little different from paper. More information about models can see in [MODEL_DETAILS.md](docs/MODEL_DETAILS.md)
 
 ## Installation
 
