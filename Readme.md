@@ -1,10 +1,14 @@
+# LICENSE 링크는 다음과 같다.
+* [LICENSE](https://github.com/lucifer443/SpineNet-Pytorch)
+
+
+# 여기서 부터는 * [yan-roo/SpineNet-Pytorch](https://github.com/yan-roo/SpineNet-Pytorch) 사이트에서 나와있는 모델 정보이다.
+
 # SpineNet-Pytorch
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/spinenet-learning-scale-permuted-backbone-for/object-detection-on-coco)](https://paperswithcode.com/sota/object-detection-on-coco?p=spinenet-learning-scale-permuted-backbone-for)<br>
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/spinenet-learning-scale-permuted-backbone-for/instance-segmentation-on-coco)](https://paperswithcode.com/sota/instance-segmentation-on-coco?p=spinenet-learning-scale-permuted-backbone-for)<br>
 
 ![demo image](demo/coco_test_12510.jpg)
-
-# 여기서 부터는 * [yan-roo/SpineNet-Pytorch](https://github.com/yan-roo/SpineNet-Pytorch) 사이트에서 나와있는 모델 정보이다.
 
 [SpineNet](https://arxiv.org/abs/1912.05027) is a scale-permuted backbone for object detection, proposed by Google Brain in CVPR 2020. This project is a kind of implementation of SpineNet using mmdetection.
 
