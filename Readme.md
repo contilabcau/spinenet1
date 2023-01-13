@@ -10,10 +10,15 @@
 ### Training : 180,800장(80%)
 ### Validation : 22,600장(10%)
 ### Test : 22,600장(10%)
-   
+
+## 학습에 사용된 전체 클래스 목록
+* [class_spinenet_final_cycle.py](https://github.com/contilabcau/spinenet1/blob/main/configs/spinenet/class_spinenet_final_cycle.py)
+
+## 학습에 사용된 하이퍼파라미터 값
+* [spinenet_final_cycle.py ](https://github.com/contilabcau/spinenet1/blob/main/configs/spinenet/spinenet_final_cycle.py)
+
 ## 모델 LICENSE 링크는 다음과 같다.
 * [LICENSE](https://github.com/contilabcau/spinenet1/blob/main/LICENSE)
-
 
 ## 여기서 부터는 * [yan-roo/SpineNet-Pytorch](https://github.com/yan-roo/SpineNet-Pytorch) 사이트에서 나와있는 모델 정보이다.
 
