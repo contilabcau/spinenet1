@@ -6,6 +6,11 @@
 ### - 2 Stage 기반으로 COCO 데이터셋으로 학습 및 평가한 결과, 기존 인공지능 모델 대비 유의미한 높은 AP를 기록하였으며, 현재 Paperswithcode의 Instance Segmentation 부문에서 16위에 위치하고 있음
 ![그림2](https://user-images.githubusercontent.com/121658912/212218384-9ace074d-886d-43b1-9eea-d37621a5b5ad.png)
 
+## 학습 데이터 셋
+### Training : 180,800장(80%)
+### Validation : 22,600장(10%)
+### Test : 22,600장(10%)
+   
 ## 모델 LICENSE 링크는 다음과 같다.
 * [LICENSE](https://github.com/contilabcau/spinenet1/blob/main/LICENSE)
 
