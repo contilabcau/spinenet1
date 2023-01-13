@@ -11,10 +11,10 @@
 * Validation : 22,600장(10%)
 * Test : 22,600장(10%)
 
-## 학습에 사용된 전체 클래스 목록
+## 데이터셋 설정
 * [class_spinenet_final_cycle.py](https://github.com/contilabcau/spinenet1/blob/main/configs/spinenet/class_spinenet_final_cycle.py)
 
-## 학습에 사용된 하이퍼파라미터 값
+## 모델 설정 (하이퍼파라메터 등)
 * [spinenet_final_cycle.py ](https://github.com/contilabcau/spinenet1/blob/main/configs/spinenet/spinenet_final_cycle.py)
 
 ## 모델 LICENSE 정보
